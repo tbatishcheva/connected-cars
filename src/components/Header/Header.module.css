@@ -1,0 +1,106 @@
+.headerWrapper {
+    display: flex;
+    justify-content: center;
+    background:
+            url("./mainOval.svg") bottom 13% left 50% no-repeat,
+            url("./oval.svg") bottom 10% left 25% no-repeat;
+}
+
+.MenuWrapper {
+    margin-top: 60px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.titleWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 37px;
+    letter-spacing: -0.671745px;
+    color: #051F61;
+    text-align: center;
+    margin-top: 66px;
+}
+
+.subtitle {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.281699px;
+    color: #051F61;
+    margin-top: 14px;
+    max-width: 340px;
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.imageWrapper {
+    position: relative;
+    display: block;
+}
+
+.plusSymbolWrapper1 {
+    position: absolute;
+    top: 42px;
+    left: 120px;
+    cursor: pointer;
+}
+
+.plusSymbolWrapper2 {
+    position: absolute;
+    top: 96px;
+    left: 60px;
+    cursor: pointer;
+}
+
+.plusSymbolWrapper3 {
+    position: absolute;
+    top: 130px;
+    left: 390px;
+    cursor: pointer;
+}
+
+.plusSymbolWrapper4 {
+    position: absolute;
+    top: 26px;
+    left: 526px;
+    cursor: pointer;
+}
+
+.labelWrapper {
+    display: none;
+    position: absolute;
+    top: -80px;
+    right: -66px;
+}
+
+.plusSymbolWrapper1:hover .labelWrapper {
+    display: block;
+}
+
+.plusSymbolWrapper2:hover .labelWrapper {
+    display: block;
+}
+
+.plusSymbolWrapper3:hover .labelWrapper {
+    display: block;
+}
+
+.plusSymbolWrapper4:hover .labelWrapper {
+    display: block;
+}

@@ -1,0 +1,19 @@
+.button {
+    background-color: #33335D;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.title {
+    font-size: 10px;
+}
+
+.subtitle {
+    font-size: 15px;
+}

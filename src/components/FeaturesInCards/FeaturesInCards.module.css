@@ -1,0 +1,16 @@
+.featuresInCardsWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.featuresInCards {
+    margin-bottom: 100px;
+}
+
+.featureCardWrapper {
+    margin-top: 66px;
+}
+
+.featureCardWrapper:first-child {
+    margin-top: 0;
+}

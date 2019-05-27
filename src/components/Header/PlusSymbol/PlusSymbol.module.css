@@ -1,0 +1,11 @@
+.plusSymbol {
+    height: 24px;
+    width: 24px;
+    background: #E76959;
+    color: white;
+    border-radius: 50%;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,18 @@
+.mainMenuItem {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.281699px;
+    color: #0272BC;
+    list-style: none;
+    margin-right: 40px;
+}
+
+.mainMenuItem a {
+    text-decoration: none;
+    color: #0272BC;
+}
+
+.mainMenuItem:last-child {
+    margin-right: 0;
+}

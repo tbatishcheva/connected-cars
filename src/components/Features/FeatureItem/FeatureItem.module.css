@@ -1,0 +1,30 @@
+.featureItem {
+    display: flex;
+    align-items: baseline;
+    /*justify-content: center;*/
+}
+
+.side {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #3095CE 0%, #5A5DD8 100%);
+    box-shadow: 1px 3px 10px #CCDFF6;
+    margin-right: 12px;
+}
+
+.title {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.325038px;
+    color: #021138;
+}
+
+.subtitle {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 21px;
+    color: #051F61;
+    margin-top: 10px;
+}

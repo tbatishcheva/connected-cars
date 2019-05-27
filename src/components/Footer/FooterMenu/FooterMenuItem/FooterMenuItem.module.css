@@ -1,0 +1,17 @@
+.footerMenuItem {
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 21px;
+    letter-spacing: -0.193668px;
+    color: #999999;
+    padding: 4px 0;
+}
+
+.footerMenuItem a {
+    text-decoration: none;
+    color: #999999;
+}
+
+.footerMenuItem:last-child {
+    padding: 0;
+}

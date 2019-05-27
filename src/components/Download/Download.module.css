@@ -1,0 +1,45 @@
+.downloadWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 56px;
+    margin-bottom: 60px;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.433384px;
+    color: #051F61;
+}
+
+.subtitle {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 21px;
+    letter-spacing: -0.211275px;
+    color: #051F61;
+    margin-top: 10px;
+    max-width: 250px;
+}
+
+.buttonWrapper {
+    display: flex;
+    margin-top: 18px;
+}
+
+.oneButtonWrapper {
+    margin-right: 40px;
+    display: flex;
+}
+
+.oneButtonWrapper:last-child {
+    margin-right: 0;
+}
