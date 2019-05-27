@@ -43,3 +43,20 @@
 .oneButtonWrapper:last-child {
     margin-right: 0;
 }
+
+@media (max-width: 576px) {
+    .img {
+        display: none;
+    }
+
+    .download {
+        justify-content: center;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import styles from './Footer.module.css';
 import Container from '../Container/Container';
 import FooterMenu from './FooterMenu/FooterMenu';
@@ -25,7 +24,6 @@ class Footer extends Component {
                 </div>
               </form>
             </div>
-
             <div className={styles.contentWrapper}>
               <div className={styles.content}>
                 <div className={styles.contacts}>

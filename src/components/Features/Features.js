@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import styles from './Features.module.css';
 import Container from '../Container/Container';
 import feature from './feature.png';

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import styles from './Bottom.module.css';
 import Container from '../Container/Container';
 import flag from './flag.png';

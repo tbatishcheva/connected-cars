@@ -64,3 +64,9 @@
     left: -28%;
     top: 2%;
 }
+
+@media (max-width: 576px) {
+    .img {
+        display: none;
+    }
+}

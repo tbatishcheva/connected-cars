@@ -54,6 +54,11 @@
     display: block;
 }
 
+.imageWrapper img {
+    max-width:100%;
+    height:auto;
+}
+
 .plusSymbolWrapper1 {
     position: absolute;
     top: 42px;
@@ -103,4 +108,19 @@
 
 .plusSymbolWrapper4:hover .labelWrapper {
     display: block;
+}
+
+@media (max-width: 676px) {
+    .plusSymbolWrapper1 {
+        display: none;
+    }
+    .plusSymbolWrapper2 {
+        display: none;
+    }
+    .plusSymbolWrapper3 {
+        display: none;
+    }
+    .plusSymbolWrapper4 {
+        display: none;
+    }
 }

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import styles from './Header.module.css';
 import Container from '../Container/Container';
 import MainMenu from './MainMenu/MainMenu';

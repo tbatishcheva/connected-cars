@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import styles from './FeaturesInCards.module.css';
 import Container from '../Container/Container';
 import FeatureCard from './FeatureCard/FeatureCard';
